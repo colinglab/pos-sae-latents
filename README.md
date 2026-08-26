@@ -1,6 +1,6 @@
 # Parts-of-Speech as Emergent Categories in SAE Latent Space
 
-Code for the paper *"Parts-of-Speech as Emergent Categories in SAE Latent
+Code for the EMNLP 2026 paper *"Parts-of-Speech as Emergent Categories in SAE Latent
 Space"* (Bondielli, Passaro, Auriemma, Lenci). We study whether part-of-speech
 (PoS) categories are encoded by individual Sparse Autoencoder (SAE) latents or
 by structured groups of latents, using LLaMA-3-8B activations on the UD
@@ -146,11 +146,13 @@ the paper.
 @inproceedings{bondielli2026pos,
   title     = {Parts-of-Speech as Emergent Categories in {SAE} Latent Space},
   author    = {Bondielli, Alessandro and Passaro, Lucia and Auriemma, Serena and Lenci, Alessandro},
-  year      = {2026}
+  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2026},
+  month     = oct,
+  publisher = {Association for Computational Linguistics},
+  note      = {To appear}
 }
 ```
-
-(Update with the final venue/year once the camera-ready is accepted.)
 
 ## License
 
