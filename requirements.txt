@@ -1,0 +1,22 @@
+# Core
+numpy
+pandas
+scikit-learn
+joblib
+tqdm
+
+# LLM + SAE
+torch
+transformers
+sparsify
+
+# Visualization
+matplotlib
+seaborn
+plotly
+umap-learn
+
+# Notes:
+# - `sparsify` (https://github.com/EleutherAI/sparsify) provides SAE loading/encoding.
+# - Pin versions as needed for your CUDA/PyTorch setup; none are pinned here
+#   since this project was developed against a single shared environment.
